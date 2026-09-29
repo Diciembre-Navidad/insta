@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #0A0E14;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 30px 20px;
+    background-color: #121824; 
+    border: 1px solid #1e2838;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo-box {
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 275px;
+    filter: brightness(0) invert(1); 
+    height: auto;
+    margin-bottom: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    background-color: #0A0E14;
+    border: 1px solid #2a364f;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px;
+    outline: none;
+}
+
+.login-form input:focus {
+    border-color: #0095f6;
+}
+
+.forgot-pass {
+    color: #0095f6;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+    margin: 6px 0 16px 0;
+}
+
+.forgot-pass:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #1877f2;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #2a364f;
+}
+
+.divider span {
+    color: #8e8e8e;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 18px;
+}
+
+.btn-fb {
+    background: transparent;
+    border: none;
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-fb:hover {
+    color: #ffffff;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0; 
+}
+
+.ralsei-img {
+    width: 85px; 
+    height: auto;
+    image-rendering: pixelated; 
+    margin-left: -5;
+    margin-top: -70px;
+    margin-bottom: -10px;
+}
